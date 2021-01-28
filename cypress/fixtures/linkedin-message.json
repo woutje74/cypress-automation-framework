@@ -1,0 +1,3 @@
+{
+    "message": "A nice feature of Cypress are Cypress.Commands. They allow you to write your own custom commands and to keep recurring code outside your testcode. Thus keeping your actual tests clean and concise. For more information check out https://docs.cypress.io/api/cypress-api/custom-commands.html#Syntax #cypress #testautomation" 
+}

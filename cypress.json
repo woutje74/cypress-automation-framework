@@ -1,0 +1,19 @@
+{
+  "baseUrl": "https://www.automationteststore.com",
+  "chromeWebSecurity": false,
+  "viewportWidth": 1200,
+  "viewportHeight": 780,
+  "env": {
+    "webdriveruni_homepage": "https://www.webdriveruniversity.com",
+    "username": "",
+    "password": "",
+    "category": "Skincare",
+    "prodName": "Total Moisture Facial Cream"
+  },
+  "projectId": "fkk8bb",
+  
+  "retries": {
+    "runMode": 2,
+    "openMode": 3
+  }
+}
