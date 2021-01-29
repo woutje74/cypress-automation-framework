@@ -3,7 +3,7 @@
   "chromeWebSecurity": false,
   "viewportWidth": 1200,
   "viewportHeight": 780,
-  "video": false,
+  "video": true,
   "env": {
     "webdriveruni_homepage": "https://www.webdriveruniversity.com",
     "username": "",
