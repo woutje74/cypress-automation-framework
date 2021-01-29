@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "runTestsHeaded": "npx cypress run --browser electron --headed",
     "allWebUni-tests": "npx cypress run --spec 'cypress/integration/webdriver-uni/*'",
-    "allWebUni-tests-dashboard":"npx cypress run --spec 'cypress/integration/webdriver-uni/*' --record --key 6e1d4e60-2955-4198-9918-8e28b5676420",
+    "allWebUni-tests-dashboard":"npx cypress run --spec 'cypress/integration/webdriver-uni/*' --record --key 6e1d4e60-2955-4198-9918-8e28b5676420 --parallel",
     "allAutoStore-tests": "npx cypress run --spec 'cypress/integration/automation_teststore/*'",
-    "allAutoStore-tests-dashboard": "npx cypress run --spec 'cypress/integration/automation_teststore/*' --record --key 6e1d4e60-2955-4198-9918-8e28b5676420",
+    "allAutoStore-tests-dashboard": "npx cypress run --spec 'cypress/integration/automation_teststore/*' --record --key 6e1d4e60-2955-4198-9918-8e28b5676420 --parallel",
     "recordTest":"npx cypress run --record --key 6e1d4e60-2955-4198-9918-8e28b5676420",
     "runInMultipleBrowsers":"npm run allAutoStore-tests -- --browser chrome --record --key 6e1d4e60-2955-4198-9918-8e28b5676420 & npm run allAutoStore-tests -- --browser electron --record --key 6e1d4e60-2955-4198-9918-8e28b5676420"
   },
