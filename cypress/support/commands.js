@@ -46,8 +46,7 @@ Cypress.Commands.add('navigateToWebDriverUniHomepage', (url) => {
 
 Cypress.Commands.add('navigateToWebDriverUniCheckboxPage', (url) => {
     //use npx cypress open --env configFile=staging before you can use this
-    cy.visit("/" + "/Dropdown-Checkboxes-RadioButtons/index.html")
-
+    cy.visit(Cypress.env("webdriveruni_homepage") + "/Dropdown-Checkboxes-RadioButtons/index.html")
 })
 
 Cypress.Commands.add('linkedInLogin', () => {
