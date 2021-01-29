@@ -25,12 +25,17 @@ describe("Test Contact Us from via Webdriveruniversity", () => {
         })
 
         it("Unable to perform succesful submission", () => {
-            
             cy.get('[name="first_name"]').type(data.first_name)
             cy.get('[name="last_name"]').type(data.last_name)
-            cy.get('textarea.feedback-input').type("Comment")
+            if(Cypress.isBrowser('firefox')){ 
+                cy.get('textarea.feedback-input').type("I am using Firefox")
+                cy.log('This the wrong browser')
+            } else {             
+                cy.get('textarea.feedback-input').type("I am using another browser")
+            }
             cy.get('[type="submit"]').click()
             cy.get('body').contains('Error: all fields are required')
+            
         })
 
 })
