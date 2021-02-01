@@ -12,9 +12,9 @@ pipeline {
                     }
                     steps {
                         git url: 'https://github.com/woutje74/cypress-automation-framework.git'
-                        sh 'npm install'
-                        sh 'npm update'
-                        sh 'npm run allAutoStore-tests-dashboard'
+                        bat 'npm install'
+                        bat 'npm update'
+                        bat 'npm run allAutoStore-tests-dashboard'
                     }
                 }
             }
