@@ -8,7 +8,7 @@ pipeline {
             parallel {
                 stage('Slave Node1') {
                     agent {
-                        label "Remote_Node1"
+                        label "remote_node1"
                     }
                     steps {
                         git url: 'https://github.com/woutje74/cypress-automation-framework.git'
@@ -19,7 +19,7 @@ pipeline {
                 }
                 stage('Slave Node2'){
                     agent {
-                        label "Remote_Node2"
+                        label "remote_node2"
                     } 
                     steps {
                         git url: 'https://github.com/woutje74/cypress-automation-framework.git'
