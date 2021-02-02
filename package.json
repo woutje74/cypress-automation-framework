@@ -8,6 +8,7 @@
     "runTestsHeaded": "npx cypress run --browser electron --headed",
     "allWebUni-tests": "npx cypress run --spec 'cypress/integration/webdriver-uni/*'",
     "allWebUni-tests-dashboard":"npx cypress run --spec 'cypress/integration/webdriver-uni/*' --record --key 6e1d4e60-2955-4198-9918-8e28b5676420 --parallel",
+    "allWebUni-tests-dashboardv1":"npx cypress run --spec 'cypress/integration/webdriver-uni/*' --record --key 6e1d4e60-2955-4198-9918-8e28b5676420",
     "allAutoStore-tests": "npx cypress run --spec 'cypress/integration/automation_teststore/*'",
     "allAutoStore-tests-dashboard": "npx cypress run --spec 'cypress/integration/automation_teststore/*' --record --key 6e1d4e60-2955-4198-9918-8e28b5676420 --parallel",
     "recordTest":"npx cypress run --record --key 6e1d4e60-2955-4198-9918-8e28b5676420",
