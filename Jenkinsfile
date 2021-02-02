@@ -25,7 +25,7 @@ pipeline {
                         git url: 'https://github.com/woutje74/cypress-automation-framework.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run allWebUni-tests-dashboard'
+                        bat 'npm run allAutoStore-tests-dashboard'
                     }
                 }
             }
